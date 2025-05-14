@@ -1,46 +1,79 @@
-# Getting Started with Create React App
+ #  📈 Minha Carteira 
+ ## Dashboard Financeiro com React e TypeScript
+ <br>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+Dashboard financeiro desenvolvido como projeto prático do curso `React e TypeScript: desenvolvendo um Dashboard da Udemy`. <br> <br> O projeto Minha Carteira é uma aplicação web que permite ao usuário visualizar e gerenciar suas finanças pessoais de forma intuitiva.
+<br>
+<br>
 
-In the project directory, you can run:
+<div style="display: flex; gap: 10px;">
+  <img src="https://drive.google.com/uc?export=view&id=1t_7mUS-Q-IeLKnMl1ufzzLl6qg4zis9n" alt="Dashboard 1" width="49%" />
+  <img src="https://drive.google.com/uc?export=view&id=1yUa8wUpmJTwAzhZLym42T8uTH830atq9" alt="Dashboard - Detalhes" width="49%" />
+</div>
 
-### `npm start`
+## 🚀 Como Executar o Projeto
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+```bash
+# Clone o repositório
+git clone https://github.com/minkiyuu/minha-carteira.git
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+# Acesse o diretório do projeto
+cd minha-carteira
 
-### `npm test`
+# Instale as dependências
+yarn install
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Inicie a aplicação
+yarn start
 
-### `npm run build`
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### :lock: Login Dashboard:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+ - email: logintester@gmail.com
+ - senha: authhook
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<br>
 
-### `npm run eject`
+## 📋 Principais Conceitos Aplicados
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### React + TypeScript:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Tipagem estática para desenvolvimento mais seguro e estruturado. <br>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Componentização:
+- Componentes reutilizáveis e organizados para facilitar a manutenção. <br>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Hooks:
+- Uso de `useState`, `useEffect`, `useMemo`, `useAuth` e hooks personalizados para gerenciamento de estado e controle global de tema/autenticação. <br>
 
-## Learn More
+### Visualização de Dados:
+- Gráficos interativos com Recharts (pizza, linha e barra) para exibir entradas, saídas e saldo mensal. <br>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Estilo e Responsividade:
+- Estilização com `styled-components` e suporte a temas claro/escuro. <br>
+- Layout responsivo com media queries, Flexbox e Grid (mobile incluso). <br>
+- Animações suaves para melhorar a experiência do usuário. <br> <br>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+
+
+## 📚 Bibliotecas Utilizadas
+
+#### [React Router DOM](https://reactrouter.com/web/guides/quick-start)
+#### [Recharts](https://recharts.org/en-US/)
+#### [React Icons](https://react-icons.github.io/react-icons/)
+#### [Styled-components](https://styled-components.com/)
+#### [uuidv4](https://www.npmjs.com/package/uuidv4)
+
+<br>
+
+## 📄 Certificação:
+
+#### <a href="https://www.udemy.com/course/react-e-typescript/?couponCode=CP130525BRGB"> Link para o Curso <a>  <br>
+#### <a href="https://udemy-certificate.s3.amazonaws.com/image/UC-c03b5238-2d78-4903-9ae2-ef8c207a796e.jpg?v=1747088125000"> Acesso ao certificado <a> <br>
+
+
+<img src="https://udemy-certificate.s3.amazonaws.com/image/UC-c03b5238-2d78-4903-9ae2-ef8c207a796e.jpg?v=1747088125000" alt="certificado de conclusao" >
+
+
